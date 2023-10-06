@@ -16,7 +16,7 @@ namespace Assignment3
         netbanking
     }
 
-    public class Order : IOperations
+    public class Order : IOperation
     {
         Product[] CartItems = new Product[10];
         private int _orderId;
